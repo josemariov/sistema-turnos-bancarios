@@ -1,3 +1,10 @@
+/**
+ * @module authController
+ * @description Controlador de autenticación del sistema bancario
+ * Maneja el registro de usuarios, login con JWT y actualización de perfil
+ * @author Jose Mario Viloria Barreto
+ */
+
 const db = require('../config/db');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
