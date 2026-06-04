@@ -1,3 +1,11 @@
+/**
+ * @module adminController
+ * @description Controlador del panel administrativo bancario
+ * Gestiona turnos, ventanillas, cajeros y estadisticas
+ * @author Jose Mario Viloria Barreto
+ * @version 1.0.0
+ */
+
 const db = require('../config/db');
 
 const verTodos = async (req, res) => {

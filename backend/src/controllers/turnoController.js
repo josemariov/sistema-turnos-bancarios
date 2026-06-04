@@ -1,3 +1,11 @@
+/**
+ * @module turnoController
+ * @description Controlador de gestión de turnos virtuales bancarios
+ * Maneja solicitud, consulta, posición en fila y cancelación de turnos
+ * @author Jose Mario Viloria Barreto
+ * @version 1.0.0
+ */
+
 const db = require('../config/db');
 
 const solicitarTurno = async (req, res) => {

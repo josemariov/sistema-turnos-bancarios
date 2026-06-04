@@ -1,3 +1,11 @@
+/**
+ * @module cajeroController
+ * @description Controlador del modulo de cajero bancario
+ * Gestiona ventanilla asignada, llamado y finalizacion de turnos
+ * @author Jose Mario Viloria Barreto
+ * @version 1.0.0
+ */
+
 const db = require('../config/db');
 
 const miVentanilla = async (req, res) => {
