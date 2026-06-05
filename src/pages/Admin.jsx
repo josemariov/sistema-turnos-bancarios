@@ -1,3 +1,11 @@
+/**
+ * @module Admin
+ * @description Panel administrativo del sistema bancario
+ * Gestiona turnos, ventanillas, filtros y estadísticas en tiempo real
+ * @author Juan Sebastian Novoa Mejia
+ * @version 1.0.0
+ */
+
 import { useState, useEffect } from 'react';
 import { verTodosTurnos, actualizarEstado, verFila, obtenerVentanillas } from '../services/api';
 import { useNavigate } from 'react-router-dom';
