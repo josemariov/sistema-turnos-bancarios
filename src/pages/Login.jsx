@@ -1,3 +1,11 @@
+/**
+ * @module Login
+ * @description Componente de inicio de sesión del sistema bancario
+ * Maneja autenticación por rol: usuario, cajero y administrador
+ * @author Juan Sebastian Novoa Mejia
+ * @version 1.0.0
+ */
+
 import { useState } from 'react';
 import { login } from '../services/api';
 import { useNavigate, Link } from 'react-router-dom';
