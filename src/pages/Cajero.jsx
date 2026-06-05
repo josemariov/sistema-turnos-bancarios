@@ -1,3 +1,11 @@
+/**
+ * @module Cajero
+ * @description Panel del cajero bancario
+ * Permite llamar siguiente turno y finalizar atención en ventanilla
+ * @author Juan Sebastian Novoa Mejia
+ * @version 1.0.0
+ */
+
 import { useState, useEffect } from 'react';
 import { miVentanilla, miFilaCajero, llamarSiguiente, finalizarTurno } from '../services/api';
 import { useNavigate } from 'react-router-dom';
