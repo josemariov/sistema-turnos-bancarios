@@ -1,3 +1,11 @@
+/**
+ * @module Register
+ * @description Componente de registro de nuevos usuarios bancarios
+ * Incluye validaciones de cédula, teléfono, email y contraseña
+ * @author Juan Sebastian Novoa Mejia
+ * @version 1.0.0
+ */
+
 import { useState } from 'react';
 import { registro } from '../services/api';
 import { useNavigate, Link } from 'react-router-dom';

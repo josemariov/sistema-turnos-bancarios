@@ -1,3 +1,11 @@
+/**
+ * @module Dashboard
+ * @description Panel principal del usuario bancario
+ * Permite solicitar turnos, ver posición en fila y contador regresivo
+ * @author Juan Sebastian Novoa Mejia
+ * @version 1.0.0
+ */
+
 import { useState, useEffect } from 'react';
 import { solicitarTurno, miTurno, posicionEnFila, cancelarTurno, historialTurnos, obtenerServicios } from '../services/api';
 import { useNavigate } from 'react-router-dom';

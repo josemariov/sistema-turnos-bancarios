@@ -1,3 +1,11 @@
+/**
+ * @module SalaEspera
+ * @description Pantalla pública de sala de espera virtual
+ * Muestra turnos pendientes y reloj en tiempo real sin autenticación
+ * @author Juan Sebastian Novoa Mejia
+ * @version 1.0.0
+ */
+
 import { useState, useEffect } from 'react';
 import { verFila } from '../services/api';
 
